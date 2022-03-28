@@ -1,0 +1,128 @@
+{
+    "chairs" : [
+        {
+            "id" : 0,
+            "name" : "Ball Chair",
+            "made by" : "Eero Aarnio",
+            "Year" : 1963,
+            "Make" : "Fiberglas, upholstery",
+            "image": "https://vanda-production-assets.s3.amazonaws.com/2018/08/31/15/18/25/dab0b170-f982-4468-b35e-4fd0154e86a3/Globe-chair-2006AV4330-960.jpg",
+            "price" : "$1,095.00"
+        },
+        {   
+            "id" : 1,
+            "name" : "Bubble Chair",
+            "made by" : "Eero Aarnio",
+            "Year": 1968,
+            "Make" : "Acrylic, Chromed Steel", 
+            "image":"https://i.pinimg.com/originals/53/d5/46/53d54635fa2a170d5202ed2ef0cd9258.jpg",
+            "price" : "$6,795.00"
+        },
+        {
+            "id" : 2,
+            "name" :"Pastil Chair",
+            "made by" : "Eero Aarnio",
+            "Year" : 1967,
+            "Make" :"Fibreglas",
+            "image" : "https://cdn.shopify.com/s/files/1/1461/0984/products/eero_aarnio_originals_product_pictures_final_colorbg_10_473b186b-8f98-4b8e-914e-d12c47a7f5bc_2048x.jpg?v=1612862532",
+            "original ad photo" : "https://static.wixstatic.com/media/c97f30_1bea3caefa29467fb851a4bcdec0f6a7~mv2.jpg/v1/fill/w_600,h_451,al_c,lg_1,q_85/c97f30_1bea3caefa29467fb851a4bcdec0f6a7~mv2.webp",
+            "price" : "$2,380.00"
+        },
+        {
+            "id" : 3,
+            "name" :"Mushroom",
+            "made by" : "Eero Aarnio",
+            "Year": 1962,
+            "Make" : "Fibreglass",
+            "image": "https://cdn.shopify.com/s/files/1/1461/0984/products/eero_aarnio_originals_product_pictures_final_colorbg_05_7b141bc9-65a9-4a8b-8450-dd6e88f15370_2000x.jpg?v=1612862460",
+            "price" : "$1,035"
+        },
+        {
+            "id" : 4,
+            "name" : "Egg Chair",
+            "made by" : "Peter Ghyczy",
+            "Year": 1968,
+            "Make" : "polyurethane",
+            "image": "https://vanda-production-assets.s3.amazonaws.com/2018/08/31/14/15/58/c5bfcb9e-e291-4696-9392-4d524db602fe/_egg-chair-comp-2.jpg",
+            "original ad photo" : "https://images.squarespace-cdn.com/content/v1/54f9867be4b0cfcc918840d8/1512575094957-FZ307JZZEO6LUKTEZW0L/ke17ZwdGBToddI8pDm48kPg3kkMSlDqGprD-21e6kCJZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZamWLI2zvYWH8K3-s_4yszcp2ryTI0HqTOaaUohrI8PIpppx-FWaxK7i6rVdWZNGy6SGN0ZVlswpj22aI6j1zesKMshLAGzx4R3EDFOm1kBS/garden+egg+chair.jpg",
+            "description" : "Intended to be a garden Chair.",
+            "price" : "$3,647.00"
+        },
+        {
+            "id" : 5,
+            "name" : "Djinn Chair",
+            "made by" : "Olivier Mourgue",
+            "Year":  1963,
+            "Make" :"Tubular steel frame, foam padding, and nylon jersey upholstery",
+            "image": "https://vanda-production-assets.s3.amazonaws.com/2018/08/31/15/28/34/c8f19c73-e0b5-4407-8d5e-9e11ce2bfa1e/Djinn-comp-1280.jpg",
+            "description" : "Organic, futuristic design. Seemingly cut and folded from a single piece of material. Mourgue designed this chair at 24 years old. It's design for lounging rather than something formal reflected the more relaxed events of the 1960s.",
+            "price" : "$7,800"
+        },
+        {
+            "id" : 6,
+            "name" : "President Lounge Chair",
+            "made by" : "Steen Ostergaard",
+            "Year": 1968,
+            "Make" : "Fibreglass",
+            "image": "https://filmandfurniture.com/wp-content/uploads/2019/07/President-chair-265-steen-ostergaard-film-and-furniture-600435.jpg8",
+            "description" : "Famously seen in Star Trek III: The Search for Spock.",
+            "description image" : "https://images.squarespace-cdn.com/content/v1/608ad06c531e2e168f3ac378/f6fea184-f7b6-4cd7-b2e5-264e32c25942/Square+03.jpg?format=750w",
+            "price" : "$3,828"
+        },
+        {
+            "id" : 7,
+            "name" : "A-line Chairs",
+            "made by" :"Steen Ostergaard" ,
+            "Year": 1960,
+            "Make" : "Fiberglass",
+            "image": ,
+            "description" : " The A-line Chair was the first chair ever made by moulded injection in one piece.",
+            "price" : "Set of four, $21,79.09"
+        }
+        
+    ],
+
+    "Lamps" : [
+{
+    "id" : 8,
+    "name" : "KD29",
+    "made by" : "Joe Colombo",
+    "Year": 1965,
+    "Make" : "Plastic" ,
+    "image": "https://designwanted.com/wp-content/uploads/2022/02/Space-age-4-scaled.jpeg",
+    "description" : "The KD29 lamp's original rounded shape lights up and is mounted on a thin band recreating a “zero-gravity” effect. This lamp offers light and has a tray for pens and small office equipment.",
+    "price" : "$800"
+},
+{
+    "id" : 9,
+    "name" : "Model 540P ",
+    "made by" :"Gino Sarfatti " ,
+    "Year": 1968,
+    "Make" : "Acrylic, aluminum",
+    "image": "",
+    "description" : " Lightweight plastic sphere emits a warm glow atop an elegant slender, chrome-plated tube. Chrome plated, dew drop form base.",
+    "price" : "$832.63"
+},
+{
+    "id": 10,
+    "name": "Dania",
+    "designed by" : "Dario Tognon",
+    "Year": 1969,
+    "Make" : "aluminum",
+    "image": "",
+    "description" : "The Diana, a sculptural and organic model, was forged in one piece cast aluminium painted white",
+    "price" : "$2,950.00"
+},
+{
+    "id" : 11,
+    "name" : "Keracolor Keraclonic Sphere",
+    "designed by" : "Arthur Bracegirdle",
+    "Year" : 1968,
+    "Make" :"",
+    "image" : "",
+    "description" : "The Keracolor’s design was thought of in 1968, which defines it as a product of sixties modernism, but did not actually go on sale until late 1970. Its spherical shape reminiscent of a cosmonaut’s helmet, a pure example of space-age design.",
+    "price" :
+}
+    ]
+
+}
