@@ -1,15 +1,18 @@
 import { BrowserRouter, Route, Link} from "react-router-dom";
-import Item from "./Item"
 function Category() {
     return <div>
-        categories listed here
-        <ul>
-            <li>
-                <Link to="/Item">
-                Items listed here
-                </Link>
-            </li>
-        </ul>
+        <Link to="/About">
+        <div className="navChild">About</div>
+        </Link>
+        <Link to="/Seating">
+        <div className="navChild">Seating</div>
+        </Link>
+        <Link to="/Storage">
+        <div className="navChild">Storage/Tables</div>
+        </Link>
+        <Link to="/Electronics">
+        <div className="navChild">Electronics and Appliances</div>
+        </Link>
     </div>
 }
 
