@@ -1,0 +1,8 @@
+#navBar {
+    display: flex;
+    background-color: burlywood;
+}
+
+.navChild{
+    margin: 1vh;
+}
