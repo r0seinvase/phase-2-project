@@ -1,8 +1,8 @@
 import Item from "./Item"
 
 function Electronics() {
-    //these are placeholders
-    return <>
+
+return <>
     Electronics!
     <Item />
     <Item />
