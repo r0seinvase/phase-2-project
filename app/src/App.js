@@ -6,6 +6,9 @@ import Home from "./Home";
 
 function App() {
   return <div className="App">
+    <div>
+      Modern and Organic Furniture: The Space Age of the Sixties
+    </div>
         <Navbar />
       <Switch>
       <Route exact path="/Item">
