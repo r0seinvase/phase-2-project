@@ -87,7 +87,7 @@
             "description" : " The A-line Chair was the first chair ever made by moulded injection in one piece.",
             "description image" : "./images/id_7_b.jpeg",
             "price" : "Set of four, $2,179.09"
-        }
+        },
         {
             "id" : 8,
             "name" : "Tube Chair",
@@ -98,11 +98,11 @@
             "description" : "The modular components of this chair can be arranged in any combination to suit the user, and can even be nested together, one inside the other. The chair is made up entirely of synthetic materials, reflecting an increased interest in man-made materials in domestic environments that became popular at this time.",
             "description image" :"./images/id_8_b.jpeg",
             "price" : "$4,000.00-$10,000.00"
-        },
+        }
         
     ],
 
-    "Electronic Appliances" : [
+    "Electronics" : [
 {
     "id" : 9,
     "name" : "KD29",
@@ -181,7 +181,7 @@
     "price" : "$350.00"
 }
 ],
-"Storage/Tables" : [
+"Storage" : [
 {
     "id" : 16,
     "name" : "Componibili",
@@ -235,5 +235,4 @@
     "image" : "./images/id_20_a.jpeg"
 }
 ]
-
 }
