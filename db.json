@@ -230,6 +230,7 @@ import images from "./images"
 }
     ],
 "about" [
+    "image" : "",
     "image" : ""
 ]
 
