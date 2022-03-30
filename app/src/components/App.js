@@ -38,7 +38,7 @@ function App() {
     <div>
       <Navbar />
     </div>
-    <Home />
+    <Home home={home} />
     <Switch>
       <Route exact path="/Item">
         <Item />
