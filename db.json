@@ -3,7 +3,7 @@
         {
             "id" : 0,
             "name" : "Ball Chair",
-            "designed by" : "Eero Aarnio",
+            "designer" : "Eero Aarnio",
             "Year" : 1963,
             "Make" : "Fiberglas, upholstery",
             "image": "./images/id_0_a.jpeg",
@@ -14,7 +14,7 @@
         {   
             "id" : 1,
             "name" : "Bubble Chair",
-            "designed by" : "Eero Aarnio",
+            "designer" : "Eero Aarnio",
             "Year": 1968,
             "Make" : "Acrylic, Chromed Steel", 
             "image":"./images/id_1_a.jpeg",
@@ -25,7 +25,7 @@
         {
             "id" : 2,
             "name" :"Pastil Chair",
-            "designed by" : "Eero Aarnio",
+            "designer" : "Eero Aarnio",
             "Year" : 1967,
             "Make" :"Fibreglas",
             "image" : "./images/id_2_a.jpeg",
@@ -36,7 +36,7 @@
         {
             "id" : 3,
             "name" :"Mushroom",
-            "designed by" : "Eero Aarnio",
+            "designer" : "Eero Aarnio",
             "Year": 1962,
             "Make" : "Fibreglass",
             "image": "./images/id_3_a.jpeg",
@@ -47,7 +47,7 @@
         {
             "id" : 4,
             "name" : "Egg Chair",
-            "designed by" : "Peter Ghyczy",
+            "designer" : "Peter Ghyczy",
             "Year": 1968,
             "Make" : "polyurethane",
             "image": "./images/id_4_a.jpeg",
@@ -58,7 +58,7 @@
         {
             "id" : 5,
             "name" : "Djinn Chair",
-            "designed by" : "Olivier Mourgue",
+            "designer" : "Olivier Mourgue",
             "Year":  1963,
             "Make" :"Tubular steel frame, foam padding, and nylon jersey upholstery",
             "image": "./images/id_5_a.jpeg",
@@ -69,7 +69,7 @@
         {
             "id" : 6,
             "name" : "President Lounge Chair",
-            "designed by" : "Steen Ostergaard",
+            "designer" : "Steen Ostergaard",
             "Year": 1968,
             "Make" : "Fibreglass",
             "image": "./images/id_6_a.jpeg",
@@ -80,7 +80,7 @@
         {
             "id" : 7,
             "name" : "A-line Chairs",
-            "designed by" :"Steen Ostergaard" ,
+            "designer" :"Steen Ostergaard" ,
             "Year": 1960,
             "Make" : "Fiberglass",
             "image": "./images/id_7_a.jpeg",
@@ -91,7 +91,7 @@
         {
             "id" : 8,
             "name" : "Tube Chair",
-            "designed by" : "Joe Colombo",
+            "designer" : "Joe Colombo",
             "Year" : 1969,
             "Make" :"Four hollow cylinders in PVC, foam rubber, and leather",
             "image" : "./images/id_8_a.jpeg",
@@ -106,7 +106,7 @@
 {
     "id" : 9,
     "name" : "KD29",
-    "designed by" : "Joe Colombo",
+    "designer" : "Joe Colombo",
     "Year": 1965,
     "Make" : "Plastic" ,
     "image":  "./images/id_9_a.jpeg",
@@ -117,7 +117,7 @@
 {
     "id" : 10,
     "name" : "Model 540P ",
-    "designed by" :"Gino Sarfatti " ,
+    "designer" :"Gino Sarfatti " ,
     "Year": 1968,
     "Make" : "Acrylic, aluminum",
     "image":  "./images/id_10_a.jpeg",
@@ -128,7 +128,7 @@
 {
     "id": 11,
     "name": "Dania",
-    "designed by" : "Dario Tognon",
+    "designer" : "Dario Tognon",
     "Year": 1969,
     "Make" : "aluminum",
     "image": "./images/id_11_a.jpeg",
@@ -139,7 +139,7 @@
 {
     "id" : 12,
     "name" : "Keracolor Keraclonic Sphere",
-    "designed by" : "Arthur Bracegirdle",
+    "designer" : "Arthur Bracegirdle",
     "Year" : 1968,
     "Make" :"",
     "image" : "./images/id_12_a.jpeg",
@@ -150,7 +150,7 @@
 {
     "id" : 13,
     "name" : "RR126",
-    "designed by" : "Pier Giacomo Castiglioni and Achille Castiglioni",
+    "designer" : "Pier Giacomo Castiglioni and Achille Castiglioni",
     "Year" : 1966,
     "Make" : "Plywood covered with a white plastic laminate",
     "image" : "./images/id_13_a.jpeg",
@@ -161,7 +161,7 @@
 {
     "id" : 14,
     "name" : "Eclipse",
-    "designed by" : "Joe Colombo",
+    "designer" : "Joe Colombo",
     "Year" : "1960-1969",
     "Make" : "Lacquered Metal",
     "image" : "./images/id_14_a.jpeg",
@@ -172,7 +172,7 @@
 {
     "id" : 15,
     "name" : "Seiko Flip Clocks",
-    "designed by" :"Seiko",
+    "designer" :"Seiko",
     "Year" : "All throughout the 1960s",
     "Make" : "Plastic",
     "image" : "./images/id_15_a.jpeg",
@@ -185,7 +185,7 @@
 {
     "id" : 16,
     "name" : "Componibili",
-    "designed by" : "Anna Castelli Ferrieri",
+    "designer" : "Anna Castelli Ferrieri",
     "Year" :"1967",
     "Make" : "Plastic",
     "image" : "./images/id_16_a.jpeg",
@@ -196,7 +196,7 @@
 {
     "id" : 17,
     "name" : "Magazine Rack 4675",
-    "designed by" : "Giotto Stoppino",
+    "designer" : "Giotto Stoppino",
     "Year" : "Late '60s to '70s",
     "Make" : "Plastic",
     "image" : "./images/id_17_a.jpeg",
@@ -207,7 +207,7 @@
 {
     "id" : 18,
     "name" : "Bobby Cabinet",
-    "designed by" : "Joe Colombo",
+    "designer" : "Joe Colombo",
     "Year" : "1960s-70s",
     "Make" : "Plastic",
     "image" : "./images/id_18_a.jpeg",
@@ -218,7 +218,7 @@
 {
     "id" : 19,
     "name" : "Tulip Dining Room Set",
-    "designed by" : "Maurice Burke",
+    "designer" : "Maurice Burke",
     "designed for" : "Arkana",
     "Year" : "All throughout the 1960s",
     "Make" :"Tulip Table base is made from cast Aluminium and is painted white, the top is made from white Formica",
