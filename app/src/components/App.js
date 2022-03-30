@@ -53,7 +53,7 @@ function App() {
         <Electronics electronics={electronics}/>
       </Route>
       <Route exact path="/Favorites">
-        <Favorites />
+        <Favorites seating={seating} storage={storage} electronics={electronics} />
       </Route>
     </Switch>
   </div>
