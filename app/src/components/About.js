@@ -1,7 +1,7 @@
 
-function About() {
-    return <>
-    About section
-    </>
-}
-export default About
+// function About() {
+//     return <>
+//     About section
+//     </>
+// }
+// export default About
