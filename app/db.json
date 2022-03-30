@@ -224,15 +224,29 @@
     "Make" :"Tulip Table base is made from cast Aluminium and is painted white, the top is made from white Formica",
     "image" : "./images/id_19_a.jpeg",
     "description" : "Tulip bases made for an icon of the '60s. Their imaginative forms and bright colours came to suggest the spirit of the moment, adding an exciting twist to the rational interior concept of design.",
-    "description image" : "./images/id_19_b.jpeg",
+    "description_image" : "./images/id_19_b.jpeg",
     "price" : "$3,495.00"
 }
     ],
 "about" : [ 
     {
     "id" : 20,
-    "description" : "",
-    "image" : "./images/id_20_a.jpeg"
+    "image_1" : "./images/id_20_a.jpeg",
+    "image_2" : "./images/image_2.jpeg",
+    "image_3" : "./Images/image_3.jpeg",
+    "image_4" : "./images/image_4.jpeg",
+    "image_5" : "./images/image_5.jpeg",
+    "image_6" : "./images/image_6.jpeg",
+    "image_7" : "./images/image_7.jpeg",
+    "image_8" : "./images/image_8.jpeg",
+    "image_9" : "./images/image_9.jpeg",
+    "image_10" : "./images/image_10.jpeg",
+    "image_11" : "./images/image_11.jpeg",
+    "image_12" : "./images/image_12.jpeg",
+    "image_13" : "./images/image_13.jpeg",
+    "image_14" : "./images/image_14.jpeg",
+    "image_15" : "./images/image_15.jpeg",
+    "image_16" : "./images/image_16.jpeg"
 }
 ]
 }
