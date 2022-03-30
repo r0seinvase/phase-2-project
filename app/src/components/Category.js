@@ -14,6 +14,9 @@ function Category() {
         <Link to="/Electronics">
         <div className="navChild">Electronics and Appliances</div>
         </Link>
+        <Link to="/Favorites">
+        <div className="navChild">Favorites</div>
+        </Link>
     </div>
 }
 
