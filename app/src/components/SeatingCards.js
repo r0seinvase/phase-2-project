@@ -31,9 +31,9 @@ function SeatingCards({ seat }) {
             )}
             <p></p>
             {favorite? (
-                <button onClick={handleFavorite} className="emoji-button favorite active">★</button>
+                <button onClick={handleFavorite} className="favorite">★</button>
             ) : (
-                <button onClick={handleFavorite} className="emoji-button favorite">☆</button>
+                <button onClick={handleFavorite} className="not-favorite">☆</button>
             )}
             {/* </div> */}
         </div>
