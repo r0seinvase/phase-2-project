@@ -14,43 +14,48 @@ function App() {
   const [seating, setSeating] = useState([])
   const [storage, setStorage] = useState([])
   const [electronics, setElectronics] = useState([])
+  const [home, setHome] = useState([])
 
   useEffect(() => {
-      fetch("http://localhost:3000/chairs")
-          .then(res => res.json())
-          .then(data => setSeating(data))
+    fetch("http://localhost:3000/chairs")
+      .then(res => res.json())
+      .then(data => setSeating(data))
 
-      fetch("http://localhost:3000/Storage")
-          .then(res => res.json())
-          .then(data => setStorage(data))
+    fetch("http://localhost:3000/Storage")
+      .then(res => res.json())
+      .then(data => setStorage(data))
 
-      fetch("http://localhost:3000/Electronics")
-          .then(res => res.json())
-          .then(data => setElectronics(data))
+    fetch("http://localhost:3000/Electronics")
+      .then(res => res.json())
+      .then(data => setElectronics(data))
+
+    fetch("http://localhost:3000/about")
+      .then(res => res.json())
+      .then(data => setHome(data))
   }, []);
+
   return <div className="App">
     <div>
       <Navbar />
     </div>
-    {/* <Home /> */}
+    <Home />
     <Switch>
       <Route exact path="/Item">
         <Item />
       </Route>
       <Route exact path="/" >
-
       </Route>
       <Route exact path="/About">
-        <About />
+        <Home home={home} />
       </Route>
       <Route exact path="/Seating">
         <Seating seating={seating} />
       </Route>
       <Route exact path="/Storage">
-        <Storage storage={storage}/>
+        <Storage storage={storage} />
       </Route>
       <Route exact path="/Electronics">
-        <Electronics electronics={electronics}/>
+        <Electronics electronics={electronics} />
       </Route>
       <Route exact path="/Favorites">
         <Favorites />
