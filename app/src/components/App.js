@@ -8,6 +8,7 @@ import About from "./About";
 import Seating from "./Seating";
 import Storage from "./Storage";
 import Electronics from "./Electronics";
+import Favorites from "./Favorites";
 
 function App() {
   const [seating, setSeating] = useState([])
@@ -50,6 +51,9 @@ function App() {
       </Route>
       <Route exact path="/Electronics">
         <Electronics electronics={electronics}/>
+      </Route>
+      <Route exact path="/Favorites">
+        <Favorites />
       </Route>
     </Switch>
   </div>
