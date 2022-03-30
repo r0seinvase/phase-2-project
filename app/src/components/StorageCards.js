@@ -3,10 +3,16 @@ import React, { useState } from 'react';
 function StorageCards({ storage }) {
 
     const [available, setAvailable] = useState(true);
+    const [favorite, setFavorite] = useState(false);
 
     function handleAvailability() {
         setAvailable(!available)
     }
+
+    function handleFavorite() {
+        setFavorite(!favorite)
+    }
+
 
 
 
@@ -23,6 +29,15 @@ function StorageCards({ storage }) {
             ) : (
                 <button classname="secondary">Out of Stock</button>
             )}
+            <p></p>
+            {favorite? (
+                <button onClick={handleFavorite} className="favorite">★</button>
+            ) : (
+                <button onClick={handleFavorite} className="not-favorite">☆</button>
+            )}
+
+            {/* </div> */}
+        
             {/* </div> */}
         </div>
 
