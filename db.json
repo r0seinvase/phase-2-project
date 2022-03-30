@@ -1,13 +1,12 @@
-
 {
     "chairs" : [
         {
             "id" : 0,
             "name" : "Ball Chair",
-            "designed by" : "Eero Aarnio",
+            "designer" : "Eero Aarnio",
             "Year" : 1963,
             "Make" : "Fiberglas, upholstery",
-            "image": "",
+            "image": "./images/id_0_a.jpeg",
             "description" : "",
             "description image" : "",
             "price" : "$1,095.00"
@@ -15,88 +14,89 @@
         {   
             "id" : 1,
             "name" : "Bubble Chair",
-            "designed by" : "Eero Aarnio",
+            "designer" : "Eero Aarnio",
             "Year": 1968,
             "Make" : "Acrylic, Chromed Steel", 
-            "image":"",
+            "image":"./images/id_1_a.jpeg",
             "description" : "",
+            "description image" : "", 
             "price" : "$6,795.00"
         },
         {
             "id" : 2,
             "name" :"Pastil Chair",
-            "designed by" : "Eero Aarnio",
+            "designer" : "Eero Aarnio",
             "Year" : 1967,
             "Make" :"Fibreglas",
-            "image" : "",
+            "image" : "./images/id_2_a.jpeg",
             "description" : "",
-            "description image" : "",
+            "description image" : "./images/id_2_b.jpeg",
             "price" : "$2,380.00"
         },
         {
             "id" : 3,
             "name" :"Mushroom",
-            "designed by" : "Eero Aarnio",
+            "designer" : "Eero Aarnio",
             "Year": 1962,
             "Make" : "Fibreglass",
-            "image": "",
+            "image": "./images/id_3_a.jpeg",
             "description" : "",
-            "description image" : "",
+            "description image" : "./images/id_3_b.jpeg",
             "price" : "$1,035"
         },
         {
             "id" : 4,
             "name" : "Egg Chair",
-            "designed by" : "Peter Ghyczy",
+            "designer" : "Peter Ghyczy",
             "Year": 1968,
             "Make" : "polyurethane",
-            "image": "",
+            "image": "./images/id_4_a.jpeg",
             "description" : "",
-            "description image" : "",
+            "description image" : "./images/id_4_b.jpeg",
             "price" : "$3,647.00"
         },
         {
             "id" : 5,
             "name" : "Djinn Chair",
-            "designed by" : "Olivier Mourgue",
+            "designer" : "Olivier Mourgue",
             "Year":  1963,
             "Make" :"Tubular steel frame, foam padding, and nylon jersey upholstery",
-            "image": "",
+            "image": "./images/id_5_a.jpeg",
             "description" : "Organic, futuristic design. Seemingly cut and folded from a single piece of material. Mourgue designed this chair at 24 years old. It's design for lounging rather than something formal reflected the more relaxed events of the 1960s.",
-            "description image" : "",
+            "description image" : "./images/id_5_b.jpeg",
             "price" : "$7,800"
         },
         {
             "id" : 6,
             "name" : "President Lounge Chair",
-            "designed by" : "Steen Ostergaard",
+            "designer" : "Steen Ostergaard",
             "Year": 1968,
             "Make" : "Fibreglass",
-            "image": "",
+            "image": "./images/id_6_a.jpeg",
             "description" : "Famously seen in Star Trek III: The Search for Spock.",
-            "description image" : "",
+            "description image" : "./images/id_6_b.jpeg",
             "price" : "$3,828"
         },
         {
             "id" : 7,
             "name" : "A-line Chairs",
-            "designed by" :"Steen Ostergaard" ,
+            "designer" :"Steen Ostergaard" ,
             "Year": 1960,
             "Make" : "Fiberglass",
-            "image": "",
+            "image": "./images/id_7_a.jpeg",
             "description" : " The A-line Chair was the first chair ever made by moulded injection in one piece.",
-            "description image" : "",
+            "description image" : "./images/id_7_b.jpeg",
             "price" : "Set of four, $2,179.09"
         },
         {
             "id" : 8,
             "name" : "Tube Chair",
-            "designed by" : "Joe Colombo",
+            "designer" : "Joe Colombo",
             "Year" : 1969,
             "Make" :"Four hollow cylinders in PVC, foam rubber, and leather",
-            "image" : "",
+            "image" : "./images/id_8_a.jpeg",
             "description" : "The modular components of this chair can be arranged in any combination to suit the user, and can even be nested together, one inside the other. The chair is made up entirely of synthetic materials, reflecting an increased interest in man-made materials in domestic environments that became popular at this time.",
-            "description image" : "",
+            "description image" :"./images/id_8_b.jpeg",
             "price" : "$4,000.00-$10,000.00"
         }
         
@@ -106,10 +106,10 @@
 {
     "id" : 9,
     "name" : "KD29",
-    "designed by" : "Joe Colombo",
+    "designer" : "Joe Colombo",
     "Year": 1965,
     "Make" : "Plastic" ,
-    "image": "",
+    "image":  "./images/id_9_a.jpeg",
     "description" : "The KD29 lamp's original rounded shape lights up and is mounted on a thin band recreating a “zero-gravity” effect. This lamp offers light and has a tray for pens and small office equipment.",
     "description image" : "",
     "price" : "$800"
@@ -117,21 +117,21 @@
 {
     "id" : 10,
     "name" : "Model 540P ",
-    "designed by" :"Gino Sarfatti " ,
+    "designer" :"Gino Sarfatti " ,
     "Year": 1968,
     "Make" : "Acrylic, aluminum",
-    "image": "",
+    "image":  "./images/id_10_a.jpeg",
     "description" : " Lightweight plastic sphere emits a warm glow atop an elegant slender, chrome-plated tube. Chrome plated, dew drop form base.",
-    "description image" : "",
+    "description image" : "./images/id_10_b.jpeg",
     "price" : "$832.63"
 },
 {
     "id": 11,
     "name": "Dania",
-    "designed by" : "Dario Tognon",
+    "designer" : "Dario Tognon",
     "Year": 1969,
     "Make" : "aluminum",
-    "image": "",
+    "image": "./images/id_11_a.jpeg",
     "description" : "The Diana, a sculptural and organic model, was forged in one piece cast aluminium painted white",
     "description image" : "",
     "price" : "$2,950.00"
@@ -139,21 +139,21 @@
 {
     "id" : 12,
     "name" : "Keracolor Keraclonic Sphere",
-    "designed by" : "Arthur Bracegirdle",
+    "designer" : "Arthur Bracegirdle",
     "Year" : 1968,
     "Make" :"",
-    "image" : "",
-    "description" : "The Keracolor’s design was thought of in 1968, which defines it as a product of sixties modernism, but did not actually go on sale until late 1970. Its spherical shape reminiscent of a cosmonaut’s helmet, a pure example of space-age design.",
+    "image" : "./images/id_12_a.jpeg",
+    "description" : "The Keracolor's design was thought of in 1968, which defines it as a product of sixties modernism, but did not actually go on sale until late 1970. Its spherical shape reminiscent of a cosmonaut’s helmet, a pure example of space-age design.",
     "description image" : "",
     "price" : ""
 },
 {
     "id" : 13,
     "name" : "RR126",
-    "designed by" : "Pier Giacomo Castiglioni and Achille Castiglioni",
+    "designer" : "Pier Giacomo Castiglioni and Achille Castiglioni",
     "Year" : 1966,
     "Make" : "Plywood covered with a white plastic laminate",
-    "image" : "",
+    "image" : "./images/id_13_a.jpeg",
     "description" :"The RR126 was one of the most famous designs in the history of Italian home stereo, and became a status symbol as soon as it was released in 1966. Its modular speakers could be hung on either side of the record player or disconnected to sit on the floor or any surface. Though it was beautifully symmetric, minimalism was not the factor that set the RR126 apart from the others on this list. Quite the opposite. This unit was anthropomorphized with volume dials for eyes and speakers for ears",
     "description image" : "",
     "price" : "$12,000"
@@ -161,10 +161,10 @@
 {
     "id" : 14,
     "name" : "Eclipse",
-    "designed by" : "Joe Colombo",
+    "designer" : "Joe Colombo",
     "Year" : "1960-1969",
     "Make" : "Lacquered Metal",
-    "image" : "",
+    "image" : "./images/id_14_a.jpeg",
     "description" : "Joe Colombo Eclipse Space Age Table Lamp for Lightolier, circa 1960s. Orange lacquered metal exterior with a white inside and a rotating screen in the center allows you to control the amount of light and create and 'eclipse' effect as you rotate the button on the top of the lamp.",
     "description image" : "",
     "price" : "$1,200"
@@ -172,10 +172,10 @@
 {
     "id" : 15,
     "name" : "Seiko Flip Clocks",
-    "designed by" :"Seiko",
+    "designer" :"Seiko",
     "Year" : "All throughout the 1960s",
     "Make" : "Plastic",
-    "image" : "",
+    "image" : "./images/id_15_a.jpeg",
     "description" : "The Seiko Brand was marketed toward the Japanese market. Throughout the sixties, seiko managed to put out an asortment of colorful flip clocks with imaginative forms. Pictured is the Seiko DP 602 Pedestal Clock.",
     "description image" : "",
     "price" : "$350.00"
@@ -185,21 +185,21 @@
 {
     "id" : 16,
     "name" : "Componibili",
-    "designed by" : "Anna Castelli Ferrieri",
+    "designer" : "Anna Castelli Ferrieri",
     "Year" :"1967",
     "Make" : "Plastic",
-    "image" : "",
+    "image" : "./images/id_16_a.jpeg",
     "description" : "Anna Castelli Ferrieri was an Italian architect and designer, one of the first Italian women graduated in architecture and one of the few women in the design sector in those years. She is known for her collaboration with Kartell, a company founded by her husband in 1949 and a pioneer in Italy in research and production of everyday plastic objects.",
-    "description image" : "",
+    "description image" : "./images/id_16_b.jpeg",
     "price" : "$650.00"
 },
 {
     "id" : 17,
     "name" : "Magazine Rack 4675",
-    "designed by" : "Giotto Stoppino",
+    "designer" : "Giotto Stoppino",
     "Year" : "Late '60s to '70s",
     "Make" : "Plastic",
-    "image" : "",
+    "image" : "./images/id_17_a.jpeg",
     "description" : "",
     "description image" : "",
     "price" : "$514.00"
@@ -207,32 +207,32 @@
 {
     "id" : 18,
     "name" : "Bobby Cabinet",
-    "designed by" : "Joe Colombo",
+    "designer" : "Joe Colombo",
     "Year" : "1960s-70s",
     "Make" : "Plastic",
-    "image" : "",
+    "image" : "./images/id_18_a.jpeg",
     "description" : "Joe Colombo is known for his many unique designs, in which convenience and effective design were paramount. That's why many of his designs were light and easy to take apart for cleaning.",
-    "description image" : "",
+    "description image" : "./images/id_18_b.jpeg",
     "price" : "$800.00"
 },
 {
     "id" : 19,
     "name" : "Tulip Dining Room Set",
-    "designed by" : "Maurice Burke",
+    "designer" : "Maurice Burke",
     "designed for" : "Arkana",
     "Year" : "All throughout the 1960s",
     "Make" :"Tulip Table base is made from cast Aluminium and is painted white, the top is made from white Formica",
-    "image" : "",
+    "image" : "./images/id_19_a.jpeg",
     "description" : "Tulip bases made for an icon of the '60s. Their imaginative forms and bright colours came to suggest the spirit of the moment, adding an exciting twist to the rational interior concept of design.",
-    "description image" : "",
+    "description image" : "./images/id_19_b.jpeg",
     "price" : "$3,495.00"
 }
     ],
-  
-    "about" : [{
-        "image" : "",
-        "about text" : ""}
-    ]
-    
-    }
-
+"about" : [ 
+    {
+    "id" : 20,
+    "description" : "",
+    "image" : "./images/id_20_a.jpeg"
+}
+]
+}

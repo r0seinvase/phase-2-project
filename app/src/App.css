@@ -1,9 +1,41 @@
-#navBar {
-    display: flex;
-    background-color: burlywood;
+.App {
+  text-align: center;
 }
 
-.navChild{
-    margin: 1vh;
-    display: inline;
+#navBar {
+  display: flex;
+  background-color: burlywood;
+}
+
+.navChild {
+  margin: 1vh;
+  display: inline;
+}
+
+.product {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.product img {
+  width: 65%;
+}
+
+
+.primary {
+  padding: 0.25rem 1rem;
+  font-family: inherit;
+  border: none;
+  cursor: help;
+  background-color: green;
+  color: white;
+}
+
+.secondary  {
+  padding: 0.25rem 1rem;
+  font-family: inherit;
+  border: none;
+  cursor: pointer;
+  background-color: blue;
+  color: white;
 }
