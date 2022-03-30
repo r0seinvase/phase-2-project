@@ -5,11 +5,16 @@
 #navBar {
   display: flex;
   background-color: burlywood;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
+
+
 
 .navChild {
   margin: 1vh;
   display: inline;
+  font-size: 60px;
 }
 
 .product {
@@ -21,7 +26,6 @@
   width: 65%;
 }
 
-
 .primary {
   padding: 0.25rem 1rem;
   font-family: inherit;
@@ -31,7 +35,7 @@
   color: white;
 }
 
-.secondary  {
+.secondary {
   padding: 0.25rem 1rem;
   font-family: inherit;
   border: none;
