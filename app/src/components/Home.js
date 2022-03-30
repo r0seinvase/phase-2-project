@@ -1,6 +1,8 @@
 import About from "./About";
-function Home({ }) {
-<
+function Home({ home }) {
+    return <div>
+
+    </div>
 
 }
 export default Home
