@@ -3,9 +3,14 @@ import React, { useState } from 'react';
 function ElectronicsCards({ electronic }) {
 
     const [available, setAvailable] = useState(true);
+    const [favorite, setFavorite] = useState(false);
 
     function handleAvailability() {
         setAvailable(!available)
+    }
+
+    function handleFavorite() {
+        setFavorite(!favorite)
     }
 
 
@@ -22,6 +27,12 @@ function ElectronicsCards({ electronic }) {
                 <button onClick={handleAvailability} className="primary">In Stock</button>
             ) : (
                 <button classname="secondary">Out of Stock</button>
+            )}
+            <p></p>
+            {favorite? (
+                 <button onClick={handleFavorite} className="favorite">★</button>
+             ) : (
+                 <button onClick={handleFavorite} className="not-favorite">☆</button>
             )}
             {/* </div> */}
         </div>
