@@ -1,10 +1,16 @@
+@font-face {
+  font-family: "Amelia";
+  src: url(../public/fonts/Amelia.ttf);
+}
+
 .App {
   text-align: center;
+  background-color: black;
 }
 
 #navBar {
   display: flex;
-  background-color: burlywood;
+  background-color: black;
   padding-top: 40px;
   padding-bottom: 40px;
 }
@@ -15,6 +21,8 @@
   margin: 1vh;
   display: inline;
   font-size: 60px;
+  font-family: Amelia;
+  color: white;
 }
 
 .product {
@@ -22,9 +30,9 @@
   grid-template-columns: 1fr 1fr;
 }
 
-.product img {
+/* .product img {
   width: 65%;
-}
+} */
 
 .primary {
   padding: 0.25rem 1rem;
@@ -44,6 +52,13 @@
   color: white;
 }
 
-.about{
-  
+
+a {
+  text-decoration: none;
+  color: #7b3e19;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #7b3e19;
 }

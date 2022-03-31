@@ -38,9 +38,26 @@ function App() {
       .then(data => setImages(data))
 
   }, []);
+  console.log(images);
 
   let displayImage = images.slice(index, index + 1)
 
+  const nextImage = () => {
+    if (index < 15) {
+      setIndex(index + 1)
+    } else {
+      setIndex(0)
+    }
+  }
+
+
+  const previousImage = () => {
+    if (index > 0) {
+      setIndex(index - 1)
+    } else {
+      setIndex(15)
+    }
+  }
 
 
   return <div className="App">
@@ -52,7 +69,7 @@ function App() {
         <Item />
       </Route>
       <Route exact path="/About">
-        <Home displayImage={displayImage} />
+        <Home nextImage={nextImage} displayImage={displayImage} previousImage={previousImage} />
       </Route>
       <Route exact path="/Seating">
         <Seating seating={seating} favorites={favorites} setFavorites={setFavorites} />
