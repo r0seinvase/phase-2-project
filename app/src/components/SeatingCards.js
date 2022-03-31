@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-function SeatingCards({ seat }) {
+function SeatingCards({ seat, favorites, setFavorites }) {
 
     const [available, setAvailable] = useState(true);
     const [favorite, setFavorite] = useState(false)
@@ -11,10 +11,9 @@ function SeatingCards({ seat }) {
 
     function handleFavorite() {
         setFavorite(!favorite)
-
+        const addFavorite = [...favorites, {['type']: "seating", ["ID"]: seat.id}]
+        setFavorites(addFavorite)
     }
-
-
     return (
         <div className="card">
             {/* <div className="products"> */}

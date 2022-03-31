@@ -1,13 +1,13 @@
 
 function About({ info }) {
 
-    console.log(info);
+    // console.log(info);
 
 
     return <div className="about">
         <h1 className="about_us_header">about us</h1>
         <div className="images">
-            <img src={info.image_1} alt="modernism" />
+            {/* <img src={info.image_1} alt="modernism" />
             <img src={info.image_2} alt="modernism" />
             <img src={info.image_3} alt="modernism" />
             <img src={info.image_4} alt="modernism" />
@@ -22,7 +22,7 @@ function About({ info }) {
             <img src={info.image_13} alt="modernism" />
             <img src={info.image_14} alt="modernism" />
             <img src={info.image_15} alt="modernism" />
-            <img src={info.image_16} alt="modernism" />
+            <img src={info.image_16} alt="modernism" /> */}
         </div>
         <h2 className="about_us_paragraph"></h2>
     </div>

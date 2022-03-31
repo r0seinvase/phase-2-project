@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-function ElectronicsCards({ electronic }) {
+function ElectronicsCards({ electronic, favorites, setFavorites }) {
 
     const [available, setAvailable] = useState(true);
     const [favorite, setFavorite] = useState(false);
@@ -11,6 +11,8 @@ function ElectronicsCards({ electronic }) {
 
     function handleFavorite() {
         setFavorite(!favorite)
+        const addFavorite = [...favorites, {['type']: "electronics", ["ID"]: electronic.id}]
+        setFavorites(addFavorite)
     }
 
 
