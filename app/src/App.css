@@ -1,10 +1,16 @@
+@font-face {
+  font-family: "Amelia";
+  src: url(../public/fonts/Amelia.ttf);
+}
+
 .App {
   text-align: center;
+  background-color: black;
 }
 
 #navBar {
   display: flex;
-  background-color: burlywood;
+  background-color: black;
   padding-top: 40px;
   padding-bottom: 40px;
   border-style: solid;
@@ -15,7 +21,10 @@
 .navChild {
   margin: 1vh;
   display: inline;
-  font-size: 40px;
+
+  font-size: 60px;
+  font-family: Amelia;
+  color: white;
 }
 
 .product {
@@ -23,9 +32,9 @@
   grid-template-columns: 1fr 1fr;
 }
 
-.product img {
+/* .product img {
   width: 65%;
-}
+} */
 
 .primary {
   padding: 0.25rem 1rem;
@@ -44,6 +53,7 @@
   background-color: blue;
   color: white;
 }
+
 
 .card {
   border-style: ridge;
@@ -76,8 +86,16 @@
   color: white;
 }
 
-.about_us_header {
-  font-family: Jazz LET, fantasy;
+
+a {
+  text-decoration: none;
+  color: #7b3e19;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #7b3e19;
+
 }
 
 .about {

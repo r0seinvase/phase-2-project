@@ -1,9 +1,9 @@
 import About from "./About";
 import { useState, useEffect } from "react";
 
-function Home({ displayImage }) {
+function Home({ previousImage, displayImage, nextImage }) {
 
-    const aboutImage = displayImage.map(img => <About key={img.id} {...img} />)
+    const aboutImage = displayImage.map(img => <About previousImage={previousImage} nextImage={nextImage} key={img.id} {...img} />)
 
     return <div>
         {aboutImage}
