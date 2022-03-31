@@ -13,7 +13,11 @@ function App() {
   const [seating, setSeating] = useState([])
   const [storage, setStorage] = useState([])
   const [electronics, setElectronics] = useState([])
+
   const [favorites, setFavorites] = useState([{ "type": "placeholder" }])
+
+ 
+
 
   const [images, setImages] = useState([])
 

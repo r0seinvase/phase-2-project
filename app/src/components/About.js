@@ -2,17 +2,17 @@ import { useState, useEffect } from "react";
 import Comments from './Comments.js';
 
 
+
 function About({ previousImage, nextImage, image }) {
 
     const [comments, setComments] = useState([])
     useEffect(() => {
         fetch("http://localhost:3000/Comments")
-            .then(response => response.json())
-            .then(data => setComments(data))
-    }, [])
+        .then(response => response.json())
+        .then(data => setComments(data))
+      },[])
 
-
-    return <div className="aboutCard">
+    return <div className="about">
         <h1 className="aboutUsHeader">about us</h1>
         <button onClick={previousImage} className="lr_buttons" > x </button>
         <img className="aboutImage" src={image} />
