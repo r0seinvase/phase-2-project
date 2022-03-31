@@ -14,6 +14,7 @@ function App() {
   const [seating, setSeating] = useState([])
   const [storage, setStorage] = useState([])
   const [electronics, setElectronics] = useState([])
+  const [favorites, setFavorites] = useState([{"type": "placeholder"}])
 
   useEffect(() => {
     fetch("http://localhost:3000/chairs")
