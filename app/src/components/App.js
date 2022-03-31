@@ -16,8 +16,6 @@ function App() {
   const [electronics, setElectronics] = useState([])
   const [favorites, setFavorites] = useState([{"type": "placeholder"}])
 
-  const [favorites, setFavorites] = useState([{ "type": "placeholder" }])
-
   const [images, setImages] = useState([])
 
   const [index, setIndex] = useState(0)
