@@ -14,7 +14,7 @@ function App() {
   const [seating, setSeating] = useState([])
   const [storage, setStorage] = useState([])
   const [electronics, setElectronics] = useState([])
-  const [home, setHome] = useState([])
+
 
   useEffect(() => {
     fetch("http://localhost:3000/chairs")
@@ -29,16 +29,13 @@ function App() {
       .then(res => res.json())
       .then(data => setElectronics(data))
 
-    fetch("http://localhost:3000/about")
-      .then(res => res.json())
-      .then(data => setHome(data))
   }, []);
 
   return <div className="App">
     <div>
       <Navbar />
     </div>
-    <Home home={home} />
+    <Home />
     <Switch>
       <Route exact path="/Item">
         <Item />
@@ -46,7 +43,7 @@ function App() {
       <Route exact path="/" >
       </Route>
       <Route exact path="/About">
-        <Home home={home} />
+        <Home />
       </Route>
       <Route exact path="/Seating">
         <Seating seating={seating} />

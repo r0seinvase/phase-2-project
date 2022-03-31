@@ -1,16 +1,15 @@
+import { useState } from "react";
 
-function About({ info }) {
 
-    console.log(info);
+function About({ aboutCard }) {
 
 
     return <div className="about">
-        <h1 className="about_us_header">about us</h1>
-        <button>  </button>
+        {/* 
         <div className="images">
-           
-        </div>
-        <h2 className="about_us_paragraph"></h2>
+            <img src={aboutCard.image} />
+        </div> */}
+
     </div>
 }
 export default About;
