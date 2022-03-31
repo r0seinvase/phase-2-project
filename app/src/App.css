@@ -16,13 +16,15 @@
   border-style: solid;
   border-width: 3px;
   border-color: black;
+  text-decoration: underline white;
+
 }
 
 .navChild {
   margin: 1vh;
   display: inline;
 
-  font-size: 60px;
+  font-size: 40px;
   font-family: Amelia;
   color: white;
 }
@@ -30,11 +32,12 @@
 .product {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  color: white;
 }
 
-/* .product img {
+.product img {
   width: 65%;
-} */
+}
 
 .primary {
   padding: 0.25rem 1rem;
@@ -50,7 +53,7 @@
   font-family: inherit;
   border: none;
   cursor: pointer;
-  background-color: blue;
+  background-color: rgb(98, 0, 255);
   color: white;
 }
 
@@ -58,7 +61,7 @@
 .card {
   border-style: ridge;
   border-width: 3px;
-  border-color: brown;
+  border-color: blue;
   padding: 1rem 1rem;
   text-align: center;
   border-radius: 20px;
@@ -72,7 +75,7 @@
   border-style: ridge;
   border-radius: 5px;
   border-width: 5px;
-  border-color: rgb(89, 0, 255);
+  border-color: blue;
 }
 
 .about_us_paragraph {
@@ -84,20 +87,20 @@
   width: 75%;
   border-top: solid 1px;
   color: white;
+  font-family: "Amelia";
+  
 }
 
-
-a {
-  text-decoration: none;
-  color: #7b3e19;
+.CommentCard {
+  color: red;
+  font-family: arial;
+  margin: auto;
 }
-
-a:visited {
-  text-decoration: none;
-  color: #7b3e19;
-
-}
-
 .about {
   background-color: black;
+}
+
+.about_button {
+  background-color: red
+  
 }

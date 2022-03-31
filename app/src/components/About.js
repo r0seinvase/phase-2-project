@@ -3,6 +3,7 @@ import Comments from './Comments.js';
 
 
 
+
 function About({ previousImage, nextImage, image }) {
 
     const [comments, setComments] = useState([])
@@ -13,10 +14,10 @@ function About({ previousImage, nextImage, image }) {
       },[])
 
     return <div className="about">
-        <h1 className="aboutUsHeader">about us</h1>
-        <button onClick={previousImage} className="lr_buttons" > x </button>
-        <img className="aboutImage" src={image} />
-        <button onClick={nextImage} className="lr_buttons" > x </button>
+        <h1 className="about_us_header">about us</h1>
+        <button className="about_button"> ^ </button>
+        <img src={image} />
+        <button className="about_button_down"> ⌄ </button>
         <h2 className="about_us_paragraph"> Known for its futuristic and orgaic design, the Space Age marks a turning point in post-war society. The demands of the WWII brought forth new innovative materials such as fibreglass, plastic and moulded plywood. These materials were extremely malleable and could be shaped to fit the human body. Humanity's new fascination with the cosmos took on new urgency and significance as the 'Space Race' between the USA and Russia provoked political tension-- inspiring an age of exceptional innovation in the world of design.
             Stellar picks aims to service as a catalogue to some of the most iconic pieces in the world of design.
             An ode to the inovation and spirit of rational design.  </h2>
@@ -24,6 +25,9 @@ function About({ previousImage, nextImage, image }) {
     </div>
 }
 export default About;
+
+
+
 
 
 
