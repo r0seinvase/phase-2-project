@@ -1,5 +1,5 @@
 function CommentCard({comment}) {
-    return <div>
+    return <div className = "CommentCard">
     {comment.comment}
     </div>
 }
