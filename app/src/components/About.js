@@ -6,11 +6,12 @@ import Comments from './Comments.js';
 function About({ previousImage, nextImage, image }) {
 
     const [comments, setComments] = useState([])
+
     useEffect(() => {
         fetch("http://localhost:3000/Comments")
-        .then(response => response.json())
-        .then(data => setComments(data))
-      },[])
+            .then(response => response.json())
+            .then(data => setComments(data))
+    }, [])
 
     return <div className="about">
         <h1 className="aboutUsHeader">about us</h1>
