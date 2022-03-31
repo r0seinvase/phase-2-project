@@ -1,6 +1,7 @@
 import { useState } from "react";
 
 
+
 function About({ aboutCard }) {
 
 
@@ -9,6 +10,7 @@ function About({ aboutCard }) {
         <div className="images">
             <img src={aboutCard.image} />
         </div> */}
+
 
     </div>
 }

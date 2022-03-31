@@ -15,7 +15,6 @@ function App() {
   const [storage, setStorage] = useState([])
   const [electronics, setElectronics] = useState([])
 
-
   useEffect(() => {
     fetch("http://localhost:3000/chairs")
       .then(res => res.json())
@@ -40,22 +39,20 @@ function App() {
       <Route exact path="/Item">
         <Item />
       </Route>
-      <Route exact path="/" >
-      </Route>
       <Route exact path="/About">
         <Home />
       </Route>
       <Route exact path="/Seating">
-        <Seating seating={seating} />
+        <Seating seating={seating} favorites={favorites} setFavorites={setFavorites}/>
       </Route>
       <Route exact path="/Storage">
-        <Storage storage={storage} />
+        <Storage storage={storage} favorites={favorites} setFavorites={setFavorites}/>
       </Route>
       <Route exact path="/Electronics">
-        <Electronics electronics={electronics} />
+        <Electronics electronics={electronics} favorites={favorites} setFavorites={setFavorites}/>
       </Route>
       <Route exact path="/Favorites">
-        <Favorites seating={seating} storage={storage} electronics={electronics} />
+        <Favorites seating={seating} storage={storage} electronics={electronics} favorites={favorites}/>
       </Route>
     </Switch>
   </div>

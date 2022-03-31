@@ -1,9 +1,10 @@
 import React, { useState } from 'react';
 
-function StorageCards({ storage }) {
+function StorageCards({ storage, favorites, setFavorites }) {
 
     const [available, setAvailable] = useState(true);
     const [favorite, setFavorite] = useState(false);
+
 
     function handleAvailability() {
         setAvailable(!available)
@@ -11,14 +12,11 @@ function StorageCards({ storage }) {
 
     function handleFavorite() {
         setFavorite(!favorite)
+        const addFavorite = [...favorites, {['type']: "storage", ["ID"]: storage.id}]
+        setFavorites(addFavorite)
     }
-
-
-
-
     return (
         <div className="card">
-            {/* <div className="products"> */}
             <img src={storage.image} alt={storage.name} />
             <h4>{storage.name} designed by {storage.designer}</h4>
             <p>{storage.Year}</p>

@@ -250,6 +250,7 @@
 "about" : [ 
     {
     "id" :20,
+      
     "image" : "./images/id_20_a.jpeg"
     },
     {
@@ -297,6 +298,55 @@
     },
     {"id" : 36,
         "image" : "./images/image_16.jpeg"
+=======
+    "image_1" : "./images/id_20_a.jpeg"
+    },
+    {
+    "id" : 21,
+    "image_2" : "./images/image_2.jpeg"
+    },
+    {"id" : 23,
+        "image_3" : "./Images/image_3.jpeg"
+    },
+    {"id" : 24,
+        "image_4" : "./images/image_4.jpeg"
+    },
+    {"id" : 25,
+        "image_5" : "./images/image_5.jpeg"
+    },
+    {"id" : 26,
+        "image_6" : "./images/image_6.jpeg"
+    },
+    {"id" : 27,
+        "image_7" : "./images/image_7.jpeg"
+    },
+    {"id" : 28,
+        "image_8" : "./images/image_8.jpeg"
+    },
+    {"id" : 29,
+        "image_9" : "./images/image_9.jpeg"
+    },
+    {"id" : 30,
+        "image_10" : "./images/image_10.jpeg"
+    },
+    {"id" : 31,
+        "image_11" : "./images/image_11.jpeg"
+    },
+    {"id" : 32,
+        "image_12" : "./images/image_12.jpeg"
+    },
+    {"id" : 33,
+        "image_13" : "./images/image_13.jpeg"
+    },
+    {"id" : 34,
+        "image_14" : "./images/image_14.jpeg"
+    },
+    {"id" : 35,
+        "image_15" : "./images/image_15.jpeg"
+    },
+    {"id" : 36,
+        "image_16" : "./images/image_16.jpeg"
+
     }
 
 ]
