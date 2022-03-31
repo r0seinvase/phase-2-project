@@ -17,6 +17,10 @@ function App() {
 
   const [favorites, setFavorites] = useState([{ "type": "placeholder" }])
 
+  const [images, setImages] = useState([])
+
+  const [index, setIndex] = useState(0)
+
   useEffect(() => {
     fetch("http://localhost:3000/chairs")
       .then(res => res.json())
@@ -30,31 +34,38 @@ function App() {
       .then(res => res.json())
       .then(data => setElectronics(data))
 
+    fetch("http://localhost:3000/about")
+      .then(res => res.json())
+      .then(data => setImages(data))
+
   }, []);
+
+  let displayImage = images.slice(index, index + 1)
+
+
 
   return <div className="App">
     <div>
       <Navbar />
     </div>
-    <Home />
     <Switch>
       <Route exact path="/Item">
         <Item />
       </Route>
       <Route exact path="/About">
-        <Home />
+        <Home displayImage={displayImage} />
       </Route>
       <Route exact path="/Seating">
-        <Seating seating={seating} favorites={favorites} setFavorites={setFavorites}/>
+        <Seating seating={seating} favorites={favorites} setFavorites={setFavorites} />
       </Route>
       <Route exact path="/Storage">
-        <Storage storage={storage} favorites={favorites} setFavorites={setFavorites}/>
+        <Storage storage={storage} favorites={favorites} setFavorites={setFavorites} />
       </Route>
       <Route exact path="/Electronics">
-        <Electronics electronics={electronics} favorites={favorites} setFavorites={setFavorites}/>
+        <Electronics electronics={electronics} favorites={favorites} setFavorites={setFavorites} />
       </Route>
       <Route exact path="/Favorites">
-        <Favorites seating={seating} storage={storage} electronics={electronics} favorites={favorites}/>
+        <Favorites seating={seating} storage={storage} electronics={electronics} favorites={favorites} />
       </Route>
     </Switch>
   </div>
