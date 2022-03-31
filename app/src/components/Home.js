@@ -1,5 +1,5 @@
 import About from "./About";
-import { useState, useEffect } from "react";
+
 
 function Home({ previousImage, displayImage, nextImage }) {
 

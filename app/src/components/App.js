@@ -4,7 +4,6 @@ import '../App.css';
 import Item from "./Item"
 import Navbar from "./Navbar";
 import Home from "./Home";
-import About from "./About";
 import Seating from "./Seating";
 import Storage from "./Storage";
 import Electronics from "./Electronics";
@@ -15,6 +14,8 @@ function App() {
   const [storage, setStorage] = useState([])
   const [electronics, setElectronics] = useState([])
   const [favorites, setFavorites] = useState([{ "type": "placeholder" }])
+
+
 
   const [images, setImages] = useState([])
 
