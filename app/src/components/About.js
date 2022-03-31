@@ -2,9 +2,10 @@ import { useState, useEffect } from "react";
 import Comments from './Comments.js';
 
 
+
 function About({ previousImage, nextImage, image }) {
 
-
+const thisSucks= null
 
 function About({ aboutImage, image }) {
     const [comments, setComments] = useState([])
