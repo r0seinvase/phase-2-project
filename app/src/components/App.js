@@ -15,6 +15,7 @@ function App() {
   const [storage, setStorage] = useState([])
   const [electronics, setElectronics] = useState([])
   const [home, setHome] = useState([])
+  const [favorites, setFavorites] = useState([{"type": "placeholder"}])
 
   useEffect(() => {
     fetch("http://localhost:3000/chairs")
@@ -43,22 +44,20 @@ function App() {
       <Route exact path="/Item">
         <Item />
       </Route>
-      <Route exact path="/" >
-      </Route>
       <Route exact path="/About">
         <Home home={home} />
       </Route>
       <Route exact path="/Seating">
-        <Seating seating={seating} />
+        <Seating seating={seating} favorites={favorites} setFavorites={setFavorites}/>
       </Route>
       <Route exact path="/Storage">
-        <Storage storage={storage} />
+        <Storage storage={storage} favorites={favorites} setFavorites={setFavorites}/>
       </Route>
       <Route exact path="/Electronics">
-        <Electronics electronics={electronics} />
+        <Electronics electronics={electronics} favorites={favorites} setFavorites={setFavorites}/>
       </Route>
       <Route exact path="/Favorites">
-        <Favorites seating={seating} storage={storage} electronics={electronics} />
+        <Favorites seating={seating} storage={storage} electronics={electronics} favorites={favorites}/>
       </Route>
     </Switch>
   </div>

@@ -1,15 +1,13 @@
 
 function About({ info }) {
 
-    console.log(info);
+    // console.log(info);
 
 
     return <div className="about">
         <h1 className="about_us_header">about us</h1>
         <button>  </button>
-        <div className="images">
-           
-        </div>
+        <div className="images"></div>
         <h2 className="about_us_paragraph"></h2>
     </div>
 }
