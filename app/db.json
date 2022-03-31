@@ -4,10 +4,11 @@
             "id" : 0,
             "name" : "Ball Chair",
             "designer" : "Eero Aarnio",
+            "for" :"Eero Aarnio",
             "Year" : 1963,
             "Make" : "Fiberglas, upholstery",
             "image": "./images/id_0_a.jpeg",
-            "description" : "",
+            "description" : "Eero Aarnio's Ball Chair became an icon of pop design, with its distinctly unnatural space-capsule-like character, strict geometry, and synthetic materials and colours all pointing to a man-made future. Designers had experimented with one-piece chair seats and backs since the 1950s, but Aarnio's design was the first to offer an all-encompassing micro-environment which isolated the sitter. Aarnio even installed telephones in some Ball Chairs, acknowledging that they were like small private rooms.",
             "description image" : "",
             "price" : "$1,095.00"
         },
@@ -15,21 +16,23 @@
             "id" : 1,
             "name" : "Bubble Chair",
             "designer" : "Eero Aarnio",
+            "for" :"Eero Aarnio",
             "Year": 1968,
             "Make" : "Acrylic, Chromed Steel", 
             "image":"./images/id_1_a.jpeg",
             "description" : "",
-            "description image" : "", 
+            "description image" : "According to Eero’s notes, the Bubble hangs from the ceiling because ‘there is no nice way to make a clear pedestal.’ It shares the same unique acoustics as the Ball Chair, a little cocoon that shields off the outside world. 'I had the idea of a transparent ball, where light comes from all directions. Acrylic can be heated and blown into shape like a soap bubble, and I knew that dome-shaped skylights were made that way. I contacted a manufacturer and asked if it would be technically possible to blow a bubble big enough for my chair. They said yes.'", 
             "price" : "$6,795.00"
         },
         {
             "id" : 2,
-            "name" :"Pastil Chair",
+            "name" :"Pastil (rocking) Chair",
             "designer" : "Eero Aarnio",
+            "for" :"Eero Aarnio",
             "Year" : 1967,
             "Make" :"Fibreglas",
             "image" : "./images/id_2_a.jpeg",
-            "description" : "",
+            "description" : "In 1968 Eero received the American Industrial Award for Pastil's comfortable shape and unique aesthetic. Eero himself believes that the design and ergonomics are so good that they don't need cushions. The New York Times also reports that 'Pastil has the ideal design for the human body.'",
             "description image" : "./images/id_2_b.jpeg",
             "price" : "$2,380.00"
         },
@@ -37,21 +40,23 @@
             "id" : 3,
             "name" :"Mushroom",
             "designer" : "Eero Aarnio",
+            "for" :"Eero Aarnio",
             "Year": 1962,
             "Make" : "Fibreglass",
             "image": "./images/id_3_a.jpeg",
-            "description" : "",
+            "description" : "The Mushroom is one of Eero’s oldest designs and in its fibreglass form is part of the same design family that includes the Ball Chair, Pastil and Tomato. It can be used as a stool or a small table. The fibreglass Mushroom was designed in 1967 by Eero Aarnio.",
             "description image" : "./images/id_3_b.jpeg",
             "price" : "$1,035"
         },
         {
             "id" : 4,
-            "name" : "Egg Chair",
+            "name" : "Garden Egg Chair",
             "designer" : "Peter Ghyczy",
+            "for" :"Peter Ghyczy",
             "Year": 1968,
             "Make" : "polyurethane",
             "image": "./images/id_4_a.jpeg",
-            "description" : "",
+            "description" : "Peter Ghyczy's Garden Egg Chair is a pre-eminent example of futuristic post-war design, combining a UFO-like form, bright plastic lacquer and informal lounging quality. The chair was one of Ghyczy's very first designs in his role as Chief Designer for the Polyurethane factory Elastogran GmbH in Lemförde (West Germany), where he was responsible for setting up the Design department and developing model polyurethane products.",
             "description image" : "./images/id_4_b.jpeg",
             "price" : "$3,647.00"
         },
@@ -59,6 +64,7 @@
             "id" : 5,
             "name" : "Djinn Chair",
             "designer" : "Olivier Mourgue",
+            "for" :"Airborne International",
             "Year":  1963,
             "Make" :"Tubular steel frame, foam padding, and nylon jersey upholstery",
             "image": "./images/id_5_a.jpeg",
@@ -70,6 +76,7 @@
             "id" : 6,
             "name" : "President Lounge Chair",
             "designer" : "Steen Ostergaard",
+            "for" :"CADO",
             "Year": 1968,
             "Make" : "Fibreglass",
             "image": "./images/id_6_a.jpeg",
@@ -81,10 +88,11 @@
             "id" : 7,
             "name" : "A-line Chairs",
             "designer" :"Steen Ostergaard" ,
+            "for" :"CADO",
             "Year": 1960,
             "Make" : "Fiberglass",
             "image": "./images/id_7_a.jpeg",
-            "description" : " The A-line Chair was the first chair ever made by moulded injection in one piece.",
+            "description" : " The A-line Chair was the first chair ever made by moulded injection in one piece, it's production time, 132 seconds. Just as they were selected for a convent Cloister in South Italy for their ascetic, esthetic and comfortability, they were also selected for jails in USA. Reasons being: they easy to clean and have no legs to be used as weapons.",
             "description image" : "./images/id_7_b.jpeg",
             "price" : "Set of four, $2,179.09"
         },
@@ -92,6 +100,7 @@
             "id" : 8,
             "name" : "Tube Chair",
             "designer" : "Joe Colombo",
+            "for" :"Cappellini",
             "Year" : 1969,
             "Make" :"Four hollow cylinders in PVC, foam rubber, and leather",
             "image" : "./images/id_8_a.jpeg",
@@ -107,6 +116,7 @@
     "id" : 9,
     "name" : "KD29",
     "designer" : "Joe Colombo",
+    "for" :"Kartell",
     "Year": 1965,
     "Make" : "Plastic" ,
     "image":  "./images/id_9_a.jpeg",
@@ -118,6 +128,7 @@
     "id" : 10,
     "name" : "Model 540P ",
     "designer" :"Gino Sarfatti " ,
+    "for" :"Arteluce",
     "Year": 1968,
     "Make" : "Acrylic, aluminum",
     "image":  "./images/id_10_a.jpeg",
@@ -129,6 +140,7 @@
     "id": 11,
     "name": "Dania",
     "designer" : "Dario Tognon",
+    "for" :"Artemide",
     "Year": 1969,
     "Make" : "aluminum",
     "image": "./images/id_11_a.jpeg",
@@ -140,6 +152,7 @@
     "id" : 12,
     "name" : "Keracolor Keraclonic Sphere",
     "designer" : "Arthur Bracegirdle",
+    "for" :"Keracolor",
     "Year" : 1968,
     "Make" :"",
     "image" : "./images/id_12_a.jpeg",
@@ -151,6 +164,7 @@
     "id" : 13,
     "name" : "RR126",
     "designer" : "Pier Giacomo Castiglioni and Achille Castiglioni",
+    "for" :"Brionvega",
     "Year" : 1966,
     "Make" : "Plywood covered with a white plastic laminate",
     "image" : "./images/id_13_a.jpeg",
@@ -162,6 +176,7 @@
     "id" : 14,
     "name" : "Eclipse",
     "designer" : "Joe Colombo",
+    "for" :"Lightolier",
     "Year" : "1960-1969",
     "Make" : "Lacquered Metal",
     "image" : "./images/id_14_a.jpeg",
@@ -173,6 +188,7 @@
     "id" : 15,
     "name" : "Seiko Flip Clocks",
     "designer" :"Seiko",
+    "for" :"Seiko",
     "Year" : "All throughout the 1960s",
     "Make" : "Plastic",
     "image" : "./images/id_15_a.jpeg",
@@ -186,6 +202,7 @@
     "id" : 16,
     "name" : "Componibili",
     "designer" : "Anna Castelli Ferrieri",
+    "for" :"Kartell",
     "Year" :"1967",
     "Make" : "Plastic",
     "image" : "./images/id_16_a.jpeg",
@@ -197,10 +214,11 @@
     "id" : 17,
     "name" : "Magazine Rack 4675",
     "designer" : "Giotto Stoppino",
+    "for" :"Kartell",
     "Year" : "Late '60s to '70s",
     "Make" : "Plastic",
     "image" : "./images/id_17_a.jpeg",
-    "description" : "",
+    "description" : "iStoppino is known for being among the first designers to use plastic in his projects and products made famous by companies such as Kartell",
     "description image" : "",
     "price" : "$514.00"
 },
@@ -208,6 +226,7 @@
     "id" : 18,
     "name" : "Bobby Cabinet",
     "designer" : "Joe Colombo",
+    "for" :"Joe Colombo",
     "Year" : "1960s-70s",
     "Make" : "Plastic",
     "image" : "./images/id_18_a.jpeg",
@@ -219,7 +238,7 @@
     "id" : 19,
     "name" : "Tulip Dining Room Set",
     "designer" : "Maurice Burke",
-    "designed for" : "Arkana",
+    "for" : "Arkana",
     "Year" : "All throughout the 1960s",
     "Make" :"Tulip Table base is made from cast Aluminium and is painted white, the top is made from white Formica",
     "image" : "./images/id_19_a.jpeg",
@@ -231,6 +250,55 @@
 "about" : [ 
     {
     "id" :20,
+      
+    "image" : "./images/id_20_a.jpeg"
+    },
+    {
+    "id" : 21,
+    "image" : "./images/image_2.jpeg"
+    },
+    {"id" : 23,
+        "image" : "./Images/image_3.jpeg"
+    },
+    {"id" : 24,
+        "image" : "./images/image_4.jpeg"
+    },
+    {"id" : 25,
+        "image" : "./images/image_5.jpeg"
+    },
+    {"id" : 26,
+        "image" : "./images/image_6.jpeg"
+    },
+    {"id" : 27,
+        "image" : "./images/image_7.jpeg"
+    },
+    {"id" : 28,
+        "image" : "./images/image_8.jpeg"
+    },
+    {"id" : 29,
+        "image" : "./images/image_9.jpeg"
+    },
+    {"id" : 30,
+        "image" : "./images/image_10.jpeg"
+    },
+    {"id" : 31,
+        "image" : "./images/image_11.jpeg"
+    },
+    {"id" : 32,
+        "image" : "./images/image_12.jpeg"
+    },
+    {"id" : 33,
+        "image" : "./images/image_13.jpeg"
+    },
+    {"id" : 34,
+        "image" : "./images/image_14.jpeg"
+    },
+    {"id" : 35,
+        "image" : "./images/image_15.jpeg"
+    },
+    {"id" : 36,
+        "image" : "./images/image_16.jpeg"
+=======
     "image_1" : "./images/id_20_a.jpeg"
     },
     {
@@ -278,6 +346,7 @@
     },
     {"id" : 36,
         "image_16" : "./images/image_16.jpeg"
+
     }
 
 ]
