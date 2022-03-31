@@ -6,6 +6,14 @@ function About({ previousImage, nextImage, image }) {
 
 
 
+function About({ aboutImage, image }) {
+    const [comments, setComments] = useState([])
+    useEffect(() => {
+        fetch("http://localhost:3000/Comments")
+        .then(response => response.json())
+        .then(data => setComments(data))
+      },[])
+
     return <div className="about">
         <h1 className="aboutUsHeader">about us</h1>
         <button onClick={previousImage} className="lr_buttons" > x </button>
