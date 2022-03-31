@@ -4,6 +4,7 @@ import Comments from './Comments.js';
 
 
 function About({ aboutImage, image }) {
+    const work = null
     const [comments, setComments] = useState([])
     useEffect(() => {
         fetch("http://localhost:3000/Comments")
